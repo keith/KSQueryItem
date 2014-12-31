@@ -11,6 +11,14 @@ A simple `NSDictionary` category to return
 
 ## Usage
 
+```objective-c
+NSURLComponents *components = ...
+NSDictionary *params = @{@"user": @"archer", @"password": @"guest"};
+components.queryItems = [params ks_queryItems];
+```
+
+## Setup
+
 ### With [CocoaPods](http://cocoapods.org)
 
 ```ruby
