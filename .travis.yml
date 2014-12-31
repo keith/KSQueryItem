@@ -6,4 +6,4 @@ branches:
 
 env: export LANG=en_US.UTF-8
 
-script: bin/test
+script: Example/bin/test
